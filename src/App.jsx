@@ -11,11 +11,7 @@ export default function App() {
 
   //save
   const saveToDo = (e) => {
-    e.preventDefault();
-    //  inputRef.current.value.autofocus()
-         // if (editIndex != null) {
-     
-    // }
+
 if(e.target.todo.value==="")
 {
   alert("enter the todo")
